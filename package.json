@@ -1,0 +1,39 @@
+{
+  "name": "pipelinedog-cli",
+  "version": "1.0.0",
+  "description": "Command line tool for PipelineDog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouanbo/pipelinedog-cli.git"
+  },
+  "keywords": [
+    "Pipeline",
+    "PipelineDog"
+  ],
+  "author": "Anbo Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouanbo/pipelinedog-cli/issues"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "pipelinedog": "index.js"
+  },
+  "homepage": "https://github.com/zhouanbo/pipelinedog-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "lodash": "^4.12.0",
+    "mkdirp": "^0.5.1"
+  }
+}
