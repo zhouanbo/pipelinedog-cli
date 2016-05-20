@@ -11,7 +11,7 @@ A command line interface for [PipelineDog](http://pipeline.dog).
 
 - To install the CLI:
   ```
-  npm install -g pipelinedog-cli
+  npm install -g pipelinedog
   ```
 
 - After doing this, you'll be able to invoke the tool manual by typing:

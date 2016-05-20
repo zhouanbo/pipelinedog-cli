@@ -1,16 +1,10 @@
 {
-  "name": "pipelinedog-cli",
-  "version": "1.0.0",
-  "description": "Command line tool for PipelineDog",
+  "name": "pipelinedog",
+  "version": "0.1.1",
+  "description": "Command line interface for PipelineDog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ],
-    "plugins": []
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
