@@ -6,9 +6,9 @@ var program = require('commander');
 var CodeParse = require('./codeParse');
 var Util = require('./util');
 var chalk = require('chalk');
-const INFO = chalk.bold.white.bgBlue;
-const ERR = chalk.bold.white.bgRed;
-const OK = chalk.bold.black.bgGreen;
+var INFO = chalk.bold.white.bgBlue;
+var ERR = chalk.bold.white.bgRed;
+var OK = chalk.bold.black.bgGreen;
 
 program
   .version('v0.0.1', '-v, --version')

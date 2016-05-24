@@ -2,7 +2,7 @@ var Util = require('./util');
 var path = require('path');
 var fs = require('fs');
 var chalk = require('chalk');
-const ERR = chalk.bold.white.bgRed;
+var ERR = chalk.bold.white.bgRed;
 
 var Police = {
 
