@@ -1,4 +1,6 @@
-.idea
+.vscode
+typings
+jsconfig.json
 
 # Logs
 logs

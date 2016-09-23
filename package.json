@@ -1,10 +1,10 @@
 {
   "name": "pipelinedog",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "Command line interface for PipelineDog",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,11 @@
     "Pipeline",
     "PipelineDog"
   ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "author": "Anbo Zhou",
   "license": "MIT",
   "bugs": {
@@ -21,13 +26,18 @@
   },
   "preferGlobal": true,
   "bin": {
-    "pipelinedog": "index.js"
+    "pipelinedog": "dist/index.js"
   },
   "homepage": "https://github.com/zhouanbo/pipelinedog-cli#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
+    "flat": "^2.0.1",
+    "js-yaml": "^3.6.1",
     "lodash": "^4.12.0",
     "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0"
   }
 }

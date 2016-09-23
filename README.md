@@ -28,15 +28,13 @@ A command line interface for [PipelineDog](http://pipeline.dog).
   to invoke the manual:
 
   ```
-  pipelinedog [options]
+  Usage: pipelinedog [options]
 
-    Options:
+  Options:
 
-      -h, --help                   output usage information
-      -v, --version                output the version number
-      -a, --action <string>        Action to perform: run or parse
-      -p, --pipeline <path>        Pipeline file exported by PipelineDog
-      -i, --input-list <path>      Input list for the run
-      -d, --work-directory [path]  Directory to run pipeline
-      -o, --output [path]          Path to output shell command file
+    -h, --help            output usage information
+    -v, --version         output the version number
+    -p, --project <path>  your PipelineDog project file
+    -l, --list <path>     file lists for the run, separated by commas
+    -o, --output [path]   path to output shell command file
   ```
