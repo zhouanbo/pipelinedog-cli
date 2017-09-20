@@ -1,13 +1,20 @@
-#PipelineDog-CLI
+# PipelineDog-CLI
 
 A command line interface for [PipelineDog](http://pipeline.dog).
 
-##Installation
+## Installation
 - First, make sure you have node.js installed on your machine. To check,
   ```
   node -v
   ```
   You should see a version number.
+
+  If not, please refer to the [Nodejs installation guide](https://nodejs.org/en/download/package-manager/).
+
+  Note that in Ubuntu distributions a symlink needs to be installed: 
+  ```
+  sudo ln -s /usr/bin/nodejs /usr/bin/node
+  ```
 
 - To install the CLI:
   ```
@@ -20,7 +27,7 @@ A command line interface for [PipelineDog](http://pipeline.dog).
   ```
   in the terminal.
 
-##Usage:
+## Usage:
 - Use
   ```
   pipelinedog -h
@@ -38,3 +45,5 @@ A command line interface for [PipelineDog](http://pipeline.dog).
     -l, --list <path>     file lists for the run, separated by commas
     -o, --output [path]   path to output shell command file
   ```
+
+- For a comprehensive documentation and explaination of concepts, please visit the [PipelineDog Wiki](https://github.com/zhouanbo/pipelinedog/wiki)

@@ -12,6 +12,7 @@ let ERR = chalk.bold.white.bgRed
 let OK = chalk.bold.black.bgGreen
 
 program.version('v0.2.1', '-v, --version')
+  .description('A commandline interface for PipelineDog. For a comprehensive documentation and explaination of concepts, please visit https://github.com/zhouanbo/pipelinedog/wiki')
   .option('-p, --project <path>', 'your PipelineDog project file', null, null)
   .option('-l, --list <path>', 'file lists for the run, separated by commas', (val)=>{return val.split(',')}, null)
   .option('-o, --output [path]', 'path to output shell command file', null, null)
